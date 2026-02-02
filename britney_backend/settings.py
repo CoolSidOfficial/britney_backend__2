@@ -125,3 +125,17 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+# CORS SETTINGS
+CORS_ALLOWED_ORIGINS = [
+    "https://coolsid.tech",
+]
+
+CORS_ALLOW_METHODS = [
+    "GET",
+    "OPTIONS",
+]
+
+CORS_ALLOW_HEADERS = [
+    "content-type",
+    "authorization",
+]
