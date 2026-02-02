@@ -25,9 +25,9 @@ SECRET_KEY = "django-insecure-k!xc4+kt-d=_b6f=g&ar-o^50orhxddm&cu*26^2x@v%ye08r7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["britneybackend2-production.up.railway.app"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://britneybackend2-production.up.railway.app/",  # Railway default domain
+    "https://britneybackend2-production.up.railway.app",  # Railway default domain
 ]
 
 
