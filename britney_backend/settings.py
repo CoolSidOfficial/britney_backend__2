@@ -27,7 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 CSRF_TRUSTED_ORIGINS = [
-    "https://your-app.up.railway.app",  # Railway default domain
+    "https://britneybackend2-production.up.railway.app/",  # Railway default domain
 ]
 
 
