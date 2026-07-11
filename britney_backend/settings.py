@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-k!xc4+kt-d=_b6f=g&ar-o^50orhxddm&cu*26^2x@v%ye08r7
 DEBUG = False
 CORS_ALLOW_ALL_ORIGINS = False
 
-ALLOWED_HOSTS = ["britneybackend2-production.up.railway.app","coolsid.tech"]
+ALLOWED_HOSTS = ["britneybackend2-production.up.railway.app","coolsid.tech","coolsid.site","https://britney-backend-2.onrender.com"]
 CSRF_TRUSTED_ORIGINS = [
     "https://britneybackend2-production.up.railway.app",
     "https://coolsid.site",
@@ -130,6 +130,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 # CORS SETTINGS
 CORS_ALLOWED_ORIGINS = [
     "https://coolsid.tech",
+    "https://coolsid.site",
+    "https://britney-backend-2.onrender.com",
 ]
 
 CORS_ALLOW_METHODS = [
