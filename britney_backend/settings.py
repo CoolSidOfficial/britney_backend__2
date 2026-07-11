@@ -29,7 +29,8 @@ CORS_ALLOW_ALL_ORIGINS = False
 ALLOWED_HOSTS = ["britneybackend2-production.up.railway.app","coolsid.tech"]
 CSRF_TRUSTED_ORIGINS = [
     "https://britneybackend2-production.up.railway.app",
-    "https://coolsid.tech", 
+    "https://coolsid.site",
+    "https://britney-backend-2.onrender.com"
 ]
 
 
